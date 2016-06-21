@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs your IntelliJ configs into your user configs.
 
-echo "Installing Square IntelliJ configs..."
+echo "Installing IntelliJ and Android Studio configs..."
 
 CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 
@@ -26,4 +26,4 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'."
+echo "You must restart IntelliJ and/or Android Studio before your new code styles are visible!!!"
